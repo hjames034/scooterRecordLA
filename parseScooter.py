@@ -11,7 +11,7 @@ def jsonReaderScooter(urlToOpen):
     with open('outputDataNew.csv', 'a+') as writer:
         writer.writelines(retStr)
     return True
-url = ["https://mds.bird.co/gbfs/los-angeles/free_bikes","https://s3.amazonaws.com/lyft-lastmile-production-iad/lbs/lax/free_bike_status.json"]
+url = ["https://mds.bird.co/gbfs/los-angeles/free_bikes","https://s3.amazonaws.com/lyft-lastmile-production-iad/lbs/lax/free_bike_status.json","https://la-gbfs.getwheelsapp.com/free_bike_status.json"]
 for i in url:
     jsonReaderScooter(i)
 
