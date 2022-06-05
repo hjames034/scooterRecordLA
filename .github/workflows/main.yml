@@ -1,7 +1,7 @@
     name: py
     on:
       schedule:
-        - cron: "*/10 * * * *" #runs every 10 minutes
+        - cron: "*/20 * * * *" #runs every 10 minutes
     jobs:
       build:
         runs-on: ubuntu-latest
