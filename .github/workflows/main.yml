@@ -1,7 +1,5 @@
     name: py
-    on:
-      schedule:
-        - cron: "*/20 * * * *" #runs every 10 minutes
+    on: workflow_dispatch
     jobs:
       build:
         runs-on: ubuntu-latest
